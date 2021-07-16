@@ -37,7 +37,7 @@ class Tarefa {
 
         li.addEventListener('click', () => {
             li.classList.toggle('marcado');
-            this.realizada = this.realizada;
+            this.realizada = !this.realizada;
         });
 
     }
